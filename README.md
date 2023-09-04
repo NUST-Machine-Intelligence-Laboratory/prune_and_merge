@@ -6,6 +6,8 @@ The framework of our Prune and Merge:
 
 ![pm-vit](fig/framework2.0.png)
 
+The implementation on Segmenter is in this [link](https://github.com/wafev/PM-Segmenter)
+
 # Model Zoo
 
 We provide baseline DeiT models pretrained on ImageNet 2012 and the pruned model.
@@ -15,7 +17,7 @@ We provide baseline DeiT models pretrained on ImageNet 2012 and the pruned model
 | DeiT-tiny | |72.2 | 1.3 | 2234 | [model](https://dl.fbaipublicfiles.com/deit/deit_tiny_patch16_224-a1311bcf.pth) |
 | DeiT-small | |79.8 | 4.6 | 1153| [model](https://dl.fbaipublicfiles.com/deit/deit_small_patch16_224-cd65a155.pth) |
 | DeiT-base | |81.8 | 17.6 | 303 | [model](https://dl.fbaipublicfiles.com/deit/deit_base_patch16_224-b5f2ef4d.pth) |
-| PM-ViT-tiny |0.7 |72.0 | 0.8 | 3375 | [model](https://drive.google.com/file/d/1lm45kpLWKVw5d340LJ0WakiO8rBwCnbc/view?usp=drive_link) |
+| PM-ViT-tiny |0.7 |72.0 | 0.8 | 3375 | [model](https://drive.google.com/file/d/1r12PcIiuAf0Wkshe4nyuFFsmS2zasqcz/view?usp=drive_link) |
 | PM-ViT-tiny | 0.6 | 71.6|0.7 | 3745 | [model](https://drive.google.com/file/d/1X2e54Xef84xQGCBjXmIcwhoCjF2qNTZN/view?usp=drive_link) |
 | PM-ViT-small | 0.6|79.6  | 3.0 | 1793 | [model](https://drive.google.com/file/d/1-7m2xyOJ-wV-TNENDIrymxiE5L4teoQQ/view?usp=drive_link) |
 | PM-ViT-MAE-base |0.6 |83.6  | 10.4 | 505 | [model](https://drive.google.com/file/d/1JpWCTZaScTls79pgetF7KNOWye95Ormt/view?usp=drive_link) |
